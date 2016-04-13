@@ -10,13 +10,13 @@
 ~~~objc
 iOS 9 API
 ~~~
-![](www.)
+![iOS 9](https://github.com/WangGuibin/WGBDraingDemo/blob/master/拖动排序collectionView/1212.gif)
 
 ~~~objc
 第三方Swift框架混编
 ~~~
 
-![](www.)
+![Swift框架混编](https://github.com/WangGuibin/WGBDraingDemo/blob/master/拖动排序collectionView/12134.gif)
 # <a id="swift"></a>[学习了...]
 
 
