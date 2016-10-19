@@ -46,7 +46,7 @@ class DragDropCollectionView: UICollectionView, UIGestureRecognizerDelegate {
     }
     
     private func commonInit() {
-        longPressRecognizer.addTarget(self, action: "handleLongPress:")
+        longPressRecognizer.addTarget(self, action: #selector(DragDropCollectionView.handleLongPress(_:)))
         longPressRecognizer.enabled = false
         self.addGestureRecognizer(longPressRecognizer)
         
@@ -312,7 +312,7 @@ extension DragDropCollectionView {
         cell.layer.renderInContext(UIGraphicsGetCurrentContext()!)
         let image = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
-        return image
+        return image!
     }
 
 }
